@@ -18,6 +18,7 @@ def load_CSV(path):
             if(row[0] not in players_basic_info):
                 players_basic_info[row[0]] = {"playerName": row[0], "position": row[1], "FTM": int(row[2]), "FTA": int(row[3]), "2PM": int(row[4]), "2PA": int(row[5]), "3PM": int(row[6]), "3PA" : int(row[7]), "REB": int(row[8]), "BLK" : int(row[9]), "AST": int(row[10]), "STL": int(row[11]), "TOV" : int(row[12]), "GAMES" :1}
             else:
+            #in case the points need to onlt be appended
                 players_basic_info[row[0]]["FTM"] += int(row[2])
                 players_basic_info[row[0]]["FTA"] += int(row[3])
                 players_basic_info[row[0]]["2PM"] += int(row[4])
