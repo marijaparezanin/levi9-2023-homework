@@ -23,8 +23,8 @@ python main.py
 Aplikacija će biti dostupna na adresi http://127.0.0.1:5000/. Za testiranje sam koristila aplikaciju Postman, ali se moze korititi i web-browser.
 
 ## API Endpointi
-# Dobijanje Statistike za Igrača
-* Endpoint: /stats/player/<player_full_name>
-* Metod: GET
-* Parametri:
+### Dobijanje Statistike za Igrača
+** * Endpoint: /stats/player/<player_full_name>
+** * Metod: GET
+** * Parametri:
   * Sub <player_full_name>: Puno ime igrača za koga želite dobiti statistiku.
