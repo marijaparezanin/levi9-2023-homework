@@ -4,11 +4,11 @@ Ovo je jednostavni API napravljen u Pythonu i Flask-u za dobijanje statistike ko
 ## Postavljanje Okruženja
 Da biste postavili okruženje i pokrenuli aplikaciju, pratite ove korake:
 
-# Zahtevi
+### Zahtevi
 * Python
 * Flask
 
-# Instalacija
+### Instalacija
 1. Klonirajte repozitorijum:
 ```
 git clone https://github.com/marijaparezanin/levi9-2023-homework.git
@@ -29,7 +29,7 @@ python main.py
 ```
 Aplikacija će biti dostupna na adresi http://127.0.0.1:5000/. Za testiranje sam koristila aplikaciju Postman, ali se moze korititi i web-browser.
 
-### API Endpointi
+## API Endpointi
 ### Dobijanje Statistike za Igrača
 * Endpoint: /stats/player/<player_full_name>
 * Metod: GET
