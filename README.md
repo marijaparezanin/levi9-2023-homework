@@ -13,7 +13,7 @@ Da biste postavili okruženje i pokrenuli aplikaciju, pratite ove korake:
 ```
 git clone https://github.com/marijaparezanin/levi9-2023-homework.git
 ```
-3. Navigirajte do direktorijuma projekta:
+3. Dođite do direktorijuma projekta:
 ```
 cd levi9-2023-homework
 ```
