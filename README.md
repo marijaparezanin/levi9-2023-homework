@@ -5,8 +5,8 @@ Ovo je jednostavni API napravljen u Pythonu i Flask-u za dobijanje statistike ko
 Da biste postavili okruženje i pokrenuli aplikaciju, pratite ove korake:
 
 # Zahtevi
-Python
-Flask
+* Python
+* Flask
 
 # Instalacija
 1. Klonirajte repozitorijum:
